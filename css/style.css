@@ -46,6 +46,9 @@ header ul{
    
 }
 
+a:hover .home {
+    font-weight:normal;
+}
 /* Global */
 header .container {
     width:80%;
@@ -108,7 +111,7 @@ a:hover{
 }
 
 .glitch:before, .glitch:after{
-    content: '</danlrk>';
+    content: '</danlark>';
     position:absolute;
     top:1px;
     left:0;
