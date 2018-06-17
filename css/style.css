@@ -10,14 +10,6 @@ header{
     border-bottom:#666 2px solid;
 }
 
-
-header a{
-    color:#ffffff;
-    text-decoration:none;
-    text-transform: none;
-    font-size:14px;
-}
-
 #navbar li{
     display:inline;
     list-style-type:none;
@@ -33,12 +25,22 @@ header a{
 
 #about:hover {
     bottom:6px;
-    content:'</home>';
+}
+
+#music:hover {
+    bottom:6px;
 }
 
 #projects:hover {
     bottom:6px;
-    content:'</home>';
+}
+
+header #currentpage{
+    bottom:6px;
+    text-decoration-style:solid;
+    font-weight: bold;
+    background-color:#000;
+    color:#333;
 }
 
 #socialbar{
@@ -60,14 +62,6 @@ header .highlight, header .current a{
     font-weight:bold;
 }
 
-header ul{
-   
-}
-
-ul#socialbar{
-
-}
-
 /* Global */
 header .container {
     width:80%;
@@ -77,6 +71,13 @@ header .container {
 
 body .container {
     width:80%;
+    margin:auto;
+    overflow:hidden;
+    text-align:center;
+    line-height: 120%;
+}
+body .textcontainer {
+    width:50%;
     margin:auto;
     overflow:hidden;
     text-align:center;
