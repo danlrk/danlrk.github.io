@@ -1,7 +1,7 @@
 /* Header */
 header{
     font: 14px/1 "lucida console", Monaco, monospace;
-    background:#222;
+    background:#444;
     color:#fff;
     padding-top:10px;
     padding-bottom:0px;
@@ -14,9 +14,9 @@ header{
 #currentpage{
     bottom:2px;
     font-weight: bold;
-    background-color:#222;
+    background-color:#333;
     font-size: 16px;
-    color:#ffffff;
+    color:#00ccff;
     text-decoration: none;
 }
 
@@ -89,11 +89,11 @@ body .textcontainer {
 }
 
 body h1{
-    color:#aaaaaa;
+    color:#fff;
     text-align:center;
 }
 body p{
-    color:#cccccc;
+    color:#eee;
     text-align:center;
 }
 
@@ -107,7 +107,7 @@ body{
     font: 16px/2 "Lucida Console", Monaco, monospace;
     padding:0;
     margin:0;
-    background-color:#111111;
+    background-color:#222;
     text-decoration: none;
 }
 
@@ -118,7 +118,7 @@ a:before{
 }
 
 a:hover{
-    color:#ffffff;
+    color:#00ccff;
     font-weight: bold;
     text-decoration: none;
 }
@@ -141,19 +141,19 @@ a:hover{
     left:0;
     right:0;
     
-    background-color:#000;
+    background-color:#555;
     color:#fff;
 }
 
 .glitch:before{
     left: 8px;
-    text-shadow: 2px 0 #00faff;
+    text-shadow: 2px 0 #00ccff;
     animation: effect 3s infinite linear;
 }
 
 .glitch:after{
     left: 4px;
-    text-shadow: -2px 0 #006eff;
+    text-shadow: -2px 0 #00ccff;
     animation: effect 2s infinite linear;
 }
 
