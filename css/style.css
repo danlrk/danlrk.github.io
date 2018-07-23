@@ -2,12 +2,21 @@
 header{
     font: 14px/1 "lucida console", Monaco, monospace;
     background:#222;
-    color:#aaaaaa;
+    color:#fff;
     padding-top:10px;
     padding-bottom:0px;
     min-height:0px;
     max-height:40px;
     border-bottom:#666 2px solid;
+    text-decoration: none;
+}
+
+#currentpage{
+    bottom:2px;
+    font-weight: bold;
+    background-color:#222;
+    font-size: 16px;
+    color:#ffffff;
     text-decoration: none;
 }
 
@@ -18,46 +27,7 @@ header{
     position:relative;
     right:50px;
     bottom:8px;
-}
-
-#typingtext {
-    font-size:16px;
-    white-space:nowrap;
-    width: 100%;
-    animation: typing 4s steps(60, end);
-    overflow: hidden;
-}
-
-@keyframes typing {
-    from {
-        width:0;
-    }
-}
-
-#typingtext:nth-child(2) {
-    animation: typingtwo 6s steps(60,end);
-}
-
-@keyframes typingtwo {
-    0%{
-        width: 0;
-    }
-    50%{
-        width: 0;
-    }
-    100%{
-        width: 100%;
-    }
-}
-
-.cursor {
-    animation:blink .8s infinite;
-}
-
-@keyframes blink {
-    to {
-        opacity: 0;
-    }
+    text-decoration: none;
 }
 
 #home:hover {
@@ -74,14 +44,6 @@ header{
 
 #projects:hover {
     bottom:7px;
-}
-
-header #currentpage{
-    bottom:7px;
-    text-decoration-style:solid;
-    font-weight: bold;
-    background-color:#222;
-    color:#ffffff;
 }
 
 #socialbar{
@@ -151,13 +113,14 @@ body{
 
 
 a:before{
-    text-decoration: none;
+    text-decoration: underline;
     color:#fff;
 }
 
 a:hover{
     color:#ffffff;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .glitch{
