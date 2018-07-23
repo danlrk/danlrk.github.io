@@ -1,13 +1,14 @@
 /* Header */
 header{
     font: 14px/1 "lucida console", Monaco, monospace;
-    background:#000;
+    background:#222;
     color:#aaaaaa;
     padding-top:10px;
     padding-bottom:0px;
     min-height:0px;
     max-height:40px;
     border-bottom:#666 2px solid;
+    text-decoration: none;
 }
 
 #navbar li{
@@ -60,27 +61,27 @@ header{
 }
 
 #home:hover {
-    bottom:6px;
+    bottom:7px;
 }
 
 #about:hover {
-    bottom:6px;
+    bottom:7px;
 }
 
 #music:hover {
-    bottom:6px;
+    bottom:7px;
 }
 
 #projects:hover {
-    bottom:6px;
+    bottom:7px;
 }
 
 header #currentpage{
-    bottom:6px;
+    bottom:7px;
     text-decoration-style:solid;
     font-weight: bold;
-    background-color:#000;
-    color:#333;
+    background-color:#222;
+    color:#ffffff;
 }
 
 #socialbar{
@@ -115,6 +116,7 @@ body .container {
     overflow:hidden;
     text-align:center;
     line-height: 120%;
+    text-decoration: none;
 }
 body .textcontainer {
     width:50%;
@@ -135,7 +137,6 @@ body p{
 
 body a{
     color:#fff;
-    text-decoration:underline;
     text-transform: none;
     font-size:16px; 
 }
@@ -145,6 +146,7 @@ body{
     padding:0;
     margin:0;
     background-color:#111111;
+    text-decoration: none;
 }
 
 
@@ -154,9 +156,7 @@ a:before{
 }
 
 a:hover{
-    color:#00f2ff;
-    text-decoration:underline;
-    text-decoration-style:solid;
+    color:#ffffff;
     font-weight: bold;
 }
 
@@ -184,13 +184,13 @@ a:hover{
 
 .glitch:before{
     left: 8px;
-    text-shadow: 2px 0 #00ffea;
+    text-shadow: 2px 0 #00faff;
     animation: effect 3s infinite linear;
 }
 
 .glitch:after{
     left: 4px;
-    text-shadow: -2px 0 ##f44283;
+    text-shadow: -2px 0 #006eff;
     animation: effect 2s infinite linear;
 }
 
