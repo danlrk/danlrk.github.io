@@ -1,8 +1,8 @@
 /* Header */
 header{
     font: 14px/1 "lucida console", Monaco, monospace;
-    background:#444;
-    color:#fff;
+    background:#ccc;
+    color:#222;
     padding-top:10px;
     padding-bottom:0px;
     min-height:0px;
@@ -14,7 +14,7 @@ header{
 #currentpage{
     bottom:2px;
     font-weight: bold;
-    background-color:#333;
+    background-color:#555;
     font-size: 16px;
     color:#00ccff;
     text-decoration: none;
@@ -61,7 +61,7 @@ header #branding{
 }
 
 header .highlight, header .current a{
-    color:#ffffff
+    color:#222;
     font-weight:bold;
 }
 
@@ -103,6 +103,10 @@ body a{
     font-size:16px; 
 }
 
+header a{
+    color:#222;
+}
+
 body{
     font: 16px/2 "Lucida Console", Monaco, monospace;
     padding:0;
@@ -112,12 +116,23 @@ body{
 }
 
 
-a:before{
+body a:before{
     text-decoration: underline;
-    color:#fff;
+    color:#222;
 }
 
-a:hover{
+body a:hover{
+    color:#00ccff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header a:before{
+    text-decoration: underline;
+    color:#222;
+}
+
+header a:hover{
     color:#00ccff;
     font-weight: bold;
     text-decoration: none;
@@ -127,32 +142,33 @@ a:hover{
    position: relative;
     top:50%;
     margin:auto;
-    color:#fff;
+    color:#444;
     font-size: 24px;
     font-family: monospace;
     font-weight:bold;
     text-align: left;
+    background-color:#ccc;
 }
 
 .glitch:before, .glitch:after{
-    content: '</danlrk>';
+    content: '>Danlrk';
     position:absolute;
     top:1px;
-    left:0;
+    left:2px;
     right:0;
     
-    background-color:#555;
-    color:#fff;
+    background-color:#ccc;
+    color:#444
 }
 
 .glitch:before{
-    left: 8px;
+    left: -15px;
     text-shadow: 2px 0 #00ccff;
     animation: effect 3s infinite linear;
 }
 
 .glitch:after{
-    left: 4px;
+    left: -20px;
     text-shadow: -2px 0 #00ccff;
     animation: effect 2s infinite linear;
 }
