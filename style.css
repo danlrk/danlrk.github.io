@@ -1,0 +1,70 @@
+/* Header */
+header{
+    font: 14px/1 "lucida console", Monaco, monospace;
+    background:#ccc;
+    color:#222;
+    padding-top:10px;
+    padding-bottom:0px;
+    min-height:0px;
+    max-height:40px;
+    border-bottom:#666 2px solid;
+    text-decoration: none;
+}
+body {
+    background:#222;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#particles-js
+{
+    height: 100%;
+    background: #222;
+}
+
+body p{
+    color:#eee;
+    font: 14px/1 "lucida console", Monaco, monospace;
+    text-align:center;
+}
+
+body a{
+    color:#fff;
+    text-transform: none;
+    font-size:25px; 
+    text-decoration:none;
+}
+
+body a:before{
+    text-decoration: none;
+    color:#222;
+}
+
+body a:hover{
+    color:#00ccff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#container {
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+    text-align:center;
+    line-height: 100%;
+    text-decoration: none;
+    position:relative;
+}
+
+#links{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+
+#links {
+    z-index: 10;
+}
